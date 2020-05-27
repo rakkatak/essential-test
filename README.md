@@ -9,6 +9,7 @@ To run, complete the steps below.
 ------------------------------
 
 In a unix terminal window:
+
 i) Run the command, to check out the project to a root project directory:
 git clone https://github.com/rakkatak/essential-<test class="git"></test>
 
@@ -21,6 +22,7 @@ ii) Note the directory where the project has been checked out to. This will be r
 The <project_root>/node_server directory node_server contains the contents of the node server. 
 
 To test, in a unix terminal window:
+
 i) Navigte to <project_root>/node_server
 
 ii) run npm install
