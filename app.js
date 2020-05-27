@@ -64,7 +64,7 @@
 
 		service.postExampleFormItems = function(data) {
 			var config = {headers:{'Content-Type':'application/json'}};
-			var url = 'https://sandbox.rakkatak.com:3000';
+			var url = 'http://localhost:3000';
 			return $http.post(
 				url,
 				JSON.stringify(data),
