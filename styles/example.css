@@ -1,0 +1,19 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.displayErrorText {
+  color: red;
+}
+
+/*# sourceMappingURL=example.css.map */
