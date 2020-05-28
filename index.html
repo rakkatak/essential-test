@@ -9,28 +9,37 @@
 </head>
 <body ng-app="ExampleApp">
 	 <div class="container" ng-controller="ExampleAppController as ctrl">
-			<div>
-				<h1>Example</h1>
-					<ul style="list-style-position">
-						<li><img src="images/flower.png"></li>
-						<li><img src="images/imp-vector-creature.svg"></li>
-					</ul>
-					<form>
-						<label for="displayName">Display name:</label>
-						<input ng-model="ctrl.displayName" type="text" id="displayName"> <span class="displayErrorText">{{ctrl.displayNameError}}</span><br><br>
-						<label for="dateOfBirth">Date of birth:</label>
-						<input ng-model="ctrl.dateOfBirth" type="date" id="dateOfBirth"><br><br>
-						<input ng-model="ctrl.option1" type="checkbox" id="option1" value="option 1">
-						<label for="option1"> Option 1</label><br>
-						<input ng-model="ctrl.option2" type="checkbox" id="option2" value="option 2">
-						<label for="option2"> Option 2</label><br><br><br>
-						<input ng-model="ctrl.fileName" type="file" id="fileName" onChange="angular.element(this).scope().setFileName(this)"><br><br>
-						<button type="button" ng-click="ctrl.sendItems();">Send</button><br><br>
-
-						{{ctrl.response}}
-					</form>
-			</div>
+		<div class="header">
+			<h1>Example</h1>
+		</div>
+		<div class="image-list">
+			<ul>
+				<li><img aria-label="Flower image" src="images/flower.png" class="responsive-image"></li>
+				<li><img aria-label="Bat image" src="images/imp-vector-creature.svg" class="responsive-image"></li>
+			</ul>
+		</div>
+		<div class="quote-section">
+			<b>"The most beautiful experience we can have is the mysterious ” <br>- Albert Einstein.</b>
+		</div>
+		<div class="form-section">
+			<form>
+				<label aria-label="Display name" for="displayName">Display name:</label>
+				<input ng-model="ctrl.displayName" type="text" id="displayName"> <span class="display-error-text">{{ctrl.displayNameError}}</span><br><br>
+				<label aria-label="Date of birth" for="dateOfBirth">Date of birth:</label>
+				<input ng-model="ctrl.dateOfBirth" type="date" id="dateOfBirth"><br><br>
+				<input ng-model="ctrl.option1" type="checkbox" id="option1" value="option 1">
+				<label aria-label="Option 1" for="option1"> Option 1</label><br>
+				<input ng-model="ctrl.option2" type="checkbox" id="option2" value="option 2">
+				<label aria-label="Option 2" for="option2"> Option 2</label><br><br>
+				<label aria-label="Attachment" for="fileName">Attachment:</label><br><br>
+				<input ng-model="ctrl.fileName" type="file" id="fileName" onChange="angular.element(this).scope().setFileName(this)"><br><br>
+				<button type="button" ng-click="ctrl.sendItems();">Send</button><br><br>
+				<span class="response-text">{{ctrl.response}}</span>
+			</form>
+			<p class="read-more-text">Read more <span class="screen-reader-text">[about our offer]</span></p>
+		</div>
 	 </div>
 
 </body>
+<footer>© 2020 Example</footer>
 </html>

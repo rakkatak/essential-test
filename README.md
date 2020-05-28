@@ -21,7 +21,7 @@ ii) Note the directory where the project has been checked out to. This will be r
 
 The <project_root>/node_server directory node_server contains the contents of the node server. 
 
-To test, in a unix terminal window:
+To test, in another unix terminal window:
 
 i) Navigte to <project_root>/node_server
 
