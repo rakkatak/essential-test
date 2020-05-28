@@ -45,10 +45,9 @@ To test, in the same unix terminal window:
 
 i) Navigate to **essential-test-home**/node_server
 
-ii) run npm install
+ii) Execute: npm install
 
-iii) run:
-node index.js
+iii) Execute: node index.js
 
 Note: Please keep this terminal window open for the send button to work 
 
