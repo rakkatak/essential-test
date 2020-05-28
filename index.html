@@ -10,7 +10,7 @@
 <body ng-app="ExampleApp">
 	 <div class="container" ng-controller="ExampleAppController as ctrl">
 		<div class="header">
-			<h1>Example</h1>
+			<h1 aria-label="Heading">Example</h1>
 		</div>
 		<div class="image-list">
 			<ul>
@@ -18,8 +18,8 @@
 				<li><img aria-label="Bat image" src="images/imp-vector-creature.svg" class="responsive-image"></li>
 			</ul>
 		</div>
-		<div class="quote-section">
-			<b>"The most beautiful experience we can have is the mysterious ” <br>- Albert Einstein.</b>
+		<div aria-label="Quote Section" class="quote-section">
+			<b>"The most beautiful experience we can have is the mysterious” <br>- Albert Einstein.</b>
 		</div>
 		<div class="form-section">
 			<form>
@@ -41,5 +41,5 @@
 	 </div>
 
 </body>
-<footer>© 2020 Example</footer>
+<footer aria-label="footer">© 2020 Example</footer>
 </html>

@@ -1,6 +1,10 @@
 # Example for Essential Accessiblity
 
-This project is a test response for the Full Stack Developer role.
+This project is my test response for the Full Stack Developer role.
+
+I took some liberty in making some choices that might make it easier to demonstrte certain concepts i.e. I put the quote and form in separate columns to show responsivity.
+
+I also enjoyed looking into some accessiblity concepts like the screen reader text and took the liberty of adding aria-labels where I thought it would show the purpose of an html element.
 
 To run, complete the steps below. 
 
