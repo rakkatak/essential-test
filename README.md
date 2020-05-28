@@ -9,6 +9,9 @@ I also enjoyed looking into some accessibility concepts like the screen reader t
 To run, complete the steps below. 
 
 ------------------------------
+Installation steps
+------------------------------
+------------------------------
 Prerequisites:
 ------------------------------
 
