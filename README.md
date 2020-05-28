@@ -9,9 +9,6 @@ I also enjoyed looking into some accessibility concepts like the screen reader t
 To run, complete the steps below. 
 
 ------------------------------
-Installation steps
-------------------------------
-------------------------------
 Prerequisites:
 ------------------------------
 
@@ -23,6 +20,9 @@ Additional Notes:
 
 I used HTML5, node version v8.11.3 and npm version 5.6.0 for development. The version of angular used was 1.6.4. Unfortunately, I didn't have the time over the last couple of days to ramp in a new version of angular, and I have worked in < 2 Angular a lot.
 
+------------------------------
+Installation steps
+------------------------------
 ------------------------------
 1) Check out the source code
 ------------------------------
