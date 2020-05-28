@@ -4,7 +4,7 @@ This project is my test response for the Full Stack Developer role.
 
 I took some liberty in making some choices that might make it easier to demonstrate certain concepts i.e. I put the quote and form in separate columns to show responsivity.
 
-I also enjoyed looking into some accessibility concepts like the screen reader text and took the liberty of adding aria-labels where I thought it would show the purpose of an html element.
+I also enjoyed looking into some accessibility concepts like the screen reader text and took the liberty of adding aria-labels where I thought it would show the purpose of an html element. I learned that SVG content is scalable without any reduction in visual quality, which is helpful for people with less than 20/20 vision. I experimented with some techniques that I learned about to make SVG content as accessible as possible (i.e. providing a title, using an anchor tag to make it focusable, giving the anchor a role)
 
 To run, complete the steps below. 
 
@@ -18,8 +18,7 @@ You must have git, node and npm installed to load this project.
 Additional Notes:
 ------------------------------
 
-I used node version v8.11.3 and npm version 5.6.0 for development. The version of angular used was 1.6.4. Unfortunately, I didn't have the time over the last couple of days to ramp in a new version of angular, and I have worked in < 2 Angular a lot.
-
+I used HTML5, node version v8.11.3 and npm version 5.6.0 for development. The version of angular used was 1.6.4. Unfortunately, I didn't have the time over the last couple of days to ramp in a new version of angular, and I have worked in < 2 Angular a lot.
 
 ------------------------------
 1) Check out the source code
@@ -31,17 +30,17 @@ i) Run the following command, to check out the project to a root project directo
 
 git clone https://github.com/rakkatak/essential-test.git
 
-ii) Note the directory where the project has been checked out to. This will be referred to as <project_root> for the remaining steps.
+ii) Note the directory where the essential-test project has been checked out to. This will be referred to as <essential-test> for the remaining steps.
 
 ------------------------------
 2) Run the node server
 ------------------------------
 
-The <project_root>/node_server directory node_server contains the contents of the node server. 
+The <essential-test>/node_server directory node_server contains the contents of the node server. 
 
-To test, in another unix terminal window:
+To test, in the same unix terminal window:
 
-i) Navigte to <project_root>/node_server
+i) Navigate to <essential-test>/node_server
 
 ii) run npm install
 
@@ -56,7 +55,7 @@ Note: Please keep this terminal window open for the send button to work
 
 In your file explorer:
 
-i) Navigate to <project_root>
+i) Navigate to <essential-test>
 
 ii) Double click index.html to open in Chrome
 

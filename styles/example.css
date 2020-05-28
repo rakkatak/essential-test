@@ -3,10 +3,6 @@ body {
   color: #333;
 }
 
-b {
-  font-size: 12px;
-}
-
 footer {
   font-size: 12px;
   margin-top: 15px;
@@ -64,6 +60,7 @@ ul {
   width: 25%;
   float: left;
   padding-right: 30px;
+  font-size: 12px;
 }
 
 .response-text {
