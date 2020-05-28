@@ -33,17 +33,17 @@ i) Run the following command, to check out the project to a root project directo
 
 git clone https://github.com/rakkatak/essential-test.git
 
-ii) Note the directory where the essential-test project has been checked out to. This will be referred to as <essential-test> for the remaining steps.
+ii) Note the directory where the essential-test project has been checked out to. This will be referred to as essential-test-home for the remaining steps.
 
 ------------------------------
 2) Run the node server
 ------------------------------
 
-The <essential-test>/node_server directory node_server contains the contents of the node server. 
+The essential-test-home/node_server directory node_server contains the contents of the node server. 
 
 To test, in the same unix terminal window:
 
-i) Navigate to <essential-test>/node_server
+i) Navigate to essential-test-home/node_server
 
 ii) run npm install
 
@@ -58,7 +58,7 @@ Note: Please keep this terminal window open for the send button to work
 
 In your file explorer:
 
-i) Navigate to <essential-test>
+i) Navigate to essential-test-home
 
 ii) Double click index.html to open in Chrome
 
