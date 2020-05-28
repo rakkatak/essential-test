@@ -1,12 +1,25 @@
-# Example for Essential Accessiblity
+# Example for Essential Accessibility
 
 This project is my test response for the Full Stack Developer role.
 
-I took some liberty in making some choices that might make it easier to demonstrte certain concepts i.e. I put the quote and form in separate columns to show responsivity.
+I took some liberty in making some choices that might make it easier to demonstrate certain concepts i.e. I put the quote and form in separate columns to show responsivity.
 
-I also enjoyed looking into some accessiblity concepts like the screen reader text and took the liberty of adding aria-labels where I thought it would show the purpose of an html element.
+I also enjoyed looking into some accessibility concepts like the screen reader text and took the liberty of adding aria-labels where I thought it would show the purpose of an html element.
 
 To run, complete the steps below. 
+
+------------------------------
+Prerequisites:
+------------------------------
+
+You must have git, node and npm installed to load this project.
+
+------------------------------
+Additional Notes:
+------------------------------
+
+I used node version v8.11.3 and npm version 5.6.0 for development. The version of angular used was 1.6.4. Unfortunately, I didn't have the time over the last couple of days to ramp in a new version of angular, and I have worked in < 2 Angular a lot.
+
 
 ------------------------------
 1) Check out the source code
@@ -14,7 +27,7 @@ To run, complete the steps below.
 
 In a unix terminal window:
 
-i) Run the command, to check out the project to a root project directory:
+i) Run the following command, to check out the project to a root project directory:
 
 git clone https://github.com/rakkatak/essential-test.git
 
@@ -47,4 +60,4 @@ i) Navigate to <project_root>
 
 ii) Double click index.html to open in Chrome
 
-Test and enjoy :D 
+Test and enjoy :D
